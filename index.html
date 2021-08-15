@@ -7,31 +7,39 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
   </head>
-  <body>
+
+  
+  <body onload="intro()">
     <div class="header">
-      <img src="https://thumbs.dreamstime.com/b/lettermark-logo-aa-initials-double-letter-design-identity-abbreviation-letters-vector-197210129.jpg" id="initials">
+      <img src="AbtMeLogo.png" id="initials">
       <nav class="navbar navbar-expand-sm ">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#" id="l1" onmouseover="navChange()">Sports</a>
+            <a class="nav-link" href="https://AboutMeSports.azharahmed3400.repl.co" id="l1" onmouseover="navChange()">Sports</a>
             </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="l2" onmouseover="navChange()">Hobbies</a>
+            <a class="nav-link" href="https://AboutMeHobbies.azharahmed3400.repl.co" id="l2" onmouseover="navChange()">Hobbies</a>
             </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="l3" onmouseover="navChange()">Music</a>
+            <a class="nav-link" href="https://AboutMeMusic.azharahmed3400.repl.co" id="l3" onmouseover="navChange()">Music</a>
             </li>
         </ul>
       </nav>
     </div>
+
     
     <div class="jumbotron jumbotron fluid lines">
+      <h1 id="intro"></h1>
       <div class="s row">
-        <p id="change" onclick="changeColor()">Hi, my name is Azhar Ahmed (placeholder image), and I'm a senior at the Bronx High School of Science. I am very interested in coding, sports, weightlifting, and reading. You can learn more about me by clicking the nav bar (no links yet). Have fun reading about me!</p>
+        <p id="change" onclick="changeColor()">Hi, my name is Azhar Ahmed, and I'm a senior at the Bronx High School of Science. I am very interested in coding, sports, weightlifting, and reading. You can learn more about me by clicking the nav bar. Have fun reading about me!</p>
       </div>
       <div class="row">
-      <img src= "https://wallpaperaccess.com/full/1591860.jpg" id="pl" onmouseout="borderLand()">
+      <img src= "AzharAhmedPic.jpg" id="pl" onmouseout="borderLand()">
       </div>
     </div>
     <div class="footer-socials">
